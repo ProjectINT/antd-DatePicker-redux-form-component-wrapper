@@ -24,7 +24,6 @@ export const wrapDatePicker = DatePicker => ({
       <DatePicker
         {...input}
         {...rest}
-        defaultValue={moment(defaultValue, "YYYY:MM:DD")} // not working
         value={moment(input.value || defaultValue, "YYYY:MM:DD")}
       >
         {children}

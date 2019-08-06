@@ -11,8 +11,8 @@ const Form = () => {
     <Field
       name="DatePicker1"
       component={ADatePicker}
-      defaultValue={moment(new Date(), "DD-MM-YYYY")}
-      style={{ width: "100%" }}
+      defaultValue={moment(new Date(), "YYYY:MM:DD")}
+      style={{ width: "30%", marginLeft: "30px" }}
     />
   );
 };
